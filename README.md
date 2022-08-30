@@ -11,7 +11,7 @@ Vemar API client for laravel.
 The recommended way to install is through [Composer](http://getcomposer.org).
 
 ```bash
-composer require patryk-sawicki/vemar-laravel-api
+composer require patryk-sawicki/vemar-laravel
 ```
 
 ## Usage
