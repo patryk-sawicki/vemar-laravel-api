@@ -1,3 +1,6 @@
+### 0.1.2
+* Files - Support for getting more information about the file.
+
 ### 0.1.1
 * Added support for downloading files.
 

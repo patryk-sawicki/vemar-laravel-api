@@ -41,7 +41,7 @@ Vemar::fabricColors()->list(bool $returnJson = false);
 Get file content, by file id encoded in base 64.
 
 ```php
-Vemar::files()->get(int $file_id);
+Vemar::files()->get(int $file_id, bool $returnJson = false);
 ```
 
 ## Changelog

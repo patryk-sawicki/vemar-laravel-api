@@ -10,9 +10,10 @@ class Files extends Api
      * Get file content, by file id encoded in base 64.
      *
      * @param int $file_id
+     * @param bool $returnJson
      * @return string|array
      */
-    public function get(int $file_id): array|string
+    public function get(int $file_id, bool $returnJson = false): array|string
     {
         $route = '/file/' . $file_id;
 
@@ -23,6 +24,6 @@ class Files extends Api
         if($response->status() != 200)
             abort(400, $response->body());
 
-        return $response->body();
+        return $returnJson ? $response->body() : json_decode($response->body(), false);
     }
 }
