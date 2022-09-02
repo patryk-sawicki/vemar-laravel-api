@@ -3,6 +3,7 @@
 namespace PatrykSawicki\VemarApi\app\Classes;
 
 use Illuminate\Support\Facades\Http;
+use stdClass;
 
 class Files extends Api
 {
@@ -11,9 +12,9 @@ class Files extends Api
      *
      * @param int $file_id
      * @param bool $returnJson
-     * @return string|array
+     * @return array|string|stdClass
      */
-    public function get(int $file_id, bool $returnJson = false): array|string
+    public function get(int $file_id, bool $returnJson = false): array|string|stdClass
     {
         $route = '/file/' . $file_id;
 

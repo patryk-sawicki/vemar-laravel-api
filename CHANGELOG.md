@@ -1,3 +1,6 @@
+### 0.1.3
+* Files - Fix for return type.
+
 ### 0.1.2
 * Files - Support for getting more information about the file.
 
