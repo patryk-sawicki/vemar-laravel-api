@@ -36,6 +36,14 @@ Get fabric colors list.
 Vemar::fabricColors()->list(bool $returnJson = false);
 ```
 
+### Files
+
+Get file content, by file id encoded in base 64.
+
+```php
+Vemar::files()->get(int $file_id);
+```
+
 ## Changelog
 
 Changelog is available [here](CHANGELOG.md).
