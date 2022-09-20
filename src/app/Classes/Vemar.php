@@ -11,4 +11,8 @@ class Vemar
     public static function files(): Files {
         return new Files();
     }
+
+    public static function systems(): Systems {
+        return new Systems();
+    }
 }
