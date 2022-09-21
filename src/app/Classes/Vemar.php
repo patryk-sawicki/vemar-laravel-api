@@ -8,6 +8,10 @@ class Vemar
         return new FabricColors();
     }
 
+    public static function systemColors(): SystemColors {
+        return new SystemColors();
+    }
+
     public static function files(): Files {
         return new Files();
     }
