@@ -5,7 +5,7 @@ namespace PatrykSawicki\VemarApi\app\Classes;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
 
-class Systems extends Api
+class Types extends Api
 {
     /**
      * Get a list of the available types.

@@ -19,4 +19,8 @@ class Vemar
     public static function systems(): Systems {
         return new Systems();
     }
+
+    public static function types(): Types {
+        return new Types();
+    }
 }
