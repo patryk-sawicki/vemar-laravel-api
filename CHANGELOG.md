@@ -1,3 +1,6 @@
+### 0.1.7
+* Equipments - get equipments list
+
 ### 0.1.6
 * Types - get types list
 

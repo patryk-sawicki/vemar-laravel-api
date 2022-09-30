@@ -23,4 +23,8 @@ class Vemar
     public static function types(): Types {
         return new Types();
     }
+
+    public static function equipments(): Equipments {
+        return new Equipments();
+    }
 }
