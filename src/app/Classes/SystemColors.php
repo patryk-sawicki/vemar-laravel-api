@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Http;
 class SystemColors extends Api
 {
     /**
-     * Get a list of the available fabric colors.
+     * Get a list of the available system colors.
      *
      * @param bool $returnJson
      * @return string|array

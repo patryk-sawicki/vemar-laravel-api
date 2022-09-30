@@ -1,3 +1,6 @@
+### 0.1.6
+* Types - get types list
+
 ### 0.1.5
 * Systems - get systemsColor list
 

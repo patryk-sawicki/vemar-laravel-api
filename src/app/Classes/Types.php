@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Http;
 class Systems extends Api
 {
     /**
-     * Get a list of the available systems .
+     * Get a list of the available types.
      *
      * @param bool $returnJson
      * @return string|array
@@ -18,7 +18,7 @@ class Systems extends Api
         $cacheName = 'vemar_api_systems_' . $returnJson;
 
         return Cache::remember($cacheName, config('vemar.cache_time'), function () use ($returnJson) {
-            $route = '/systems';
+            $route = '/types';
 
             $data = [];
 
