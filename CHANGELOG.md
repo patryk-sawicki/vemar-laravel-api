@@ -1,3 +1,6 @@
+### 0.1.8
+* SystemEquipments - get systemEquipments list
+
 ### 0.1.7
 * Equipments - get equipments list
 
