@@ -31,4 +31,9 @@ class Vemar
     public static function systemEquipments(): SystemEquipments {
         return new SystemEquipments();
     }
+
+    public static function systemModels(): SystemModels
+    {
+        return new SystemModels();
+    }
 }

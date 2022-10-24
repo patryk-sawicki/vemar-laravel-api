@@ -1,3 +1,6 @@
+### 0.1.9
+* SystemModels - get systemModels list.
+
 ### 0.1.8
 * SystemEquipments - get systemEquipments list
 
