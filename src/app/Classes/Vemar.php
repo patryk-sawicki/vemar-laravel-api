@@ -36,4 +36,9 @@ class Vemar
     {
         return new SystemModels();
     }
+
+    public static function checkPrice(): CheckPrice
+    {
+        return new CheckPrice();
+    }
 }

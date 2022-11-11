@@ -5,4 +5,6 @@ return [
 
     /*Cache time*/
     'cache_time' => env('VEMAR_CACHE_DEFAULT_TTL', 86400),
+
+    'tax' => env('VEMAR_TAX', 0.23),
 ];

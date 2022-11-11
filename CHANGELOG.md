@@ -1,3 +1,6 @@
+### 0.2.0
+* CheckPrice - Function for checking product price.
+
 ### 0.1.9
 * SystemModels - get systemModels list.
 

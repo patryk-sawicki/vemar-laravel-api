@@ -44,6 +44,14 @@ Get file content, by file id encoded in base 64.
 Vemar::files()->get(int $file_id, bool $returnJson = false);
 ```
 
+### Check price
+
+Check product price.
+
+```php
+Vemar::checkPrice()->check(array $params);
+```
+
 ## Changelog
 
 Changelog is available [here](CHANGELOG.md).
