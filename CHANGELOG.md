@@ -1,3 +1,6 @@
+### 0.2.1
+* CheckPrice - Fix for checking price.
+
 ### 0.2.0
 * CheckPrice - Function for checking product price.
 

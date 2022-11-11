@@ -35,7 +35,7 @@ class CheckPrice extends Api
             $cts_count_min = $params['cts_count_min'] ?? 0;
             $quantity = $params['quantity'] ?? 1;
 
-            if(!$price > 0)
+            if(!$basicPrice > 0)
                 abort(400, $response->body());
 
             if($response->surcharge > 0)
