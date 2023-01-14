@@ -1,3 +1,6 @@
+### 0.2.2
+* Config - Updated api url.
+
 ### 0.2.1
 * CheckPrice - Fix for checking price.
 
