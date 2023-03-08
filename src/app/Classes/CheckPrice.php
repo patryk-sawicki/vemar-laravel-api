@@ -15,7 +15,7 @@ class CheckPrice extends Api
      */
     public function check(array $params): float
     {
-        $cacheName = 'vemar_api_check_price_' . implode('_', $params) . implode('_', array_keys($params));
+        $cacheName = 'vemar_api_check_price_' . var_export($params, true);
 
         return Cache::remember($cacheName, config('vemar.cache_time'), function () use ($params) {
             $route = '/checkPrice';
