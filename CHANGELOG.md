@@ -1,3 +1,6 @@
+### 0.2.5
+* Order - Added store function.
+
 ### 0.2.4
 * CustomerData - Added update function.
 

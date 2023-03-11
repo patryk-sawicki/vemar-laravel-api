@@ -46,4 +46,9 @@ class Vemar
     {
         return new CustomerData();
     }
+
+    public static function order(): Order
+    {
+        return new Order();
+    }
 }
