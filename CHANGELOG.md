@@ -1,3 +1,6 @@
+### 0.2.4
+* CustomerData - Added update function.
+
 ### 0.2.3
 * CheckPrice - Fix for checking price.
 

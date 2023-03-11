@@ -41,4 +41,9 @@ class Vemar
     {
         return new CheckPrice();
     }
+
+    public static function customerData(): CustomerData
+    {
+        return new CustomerData();
+    }
 }
