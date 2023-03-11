@@ -1,3 +1,6 @@
+### 0.2.6
+* CustomerData - Fix for return if response is empty.
+
 ### 0.2.5
 * Order - Added store function.
 

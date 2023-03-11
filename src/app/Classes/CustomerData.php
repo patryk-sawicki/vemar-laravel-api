@@ -11,9 +11,9 @@ class CustomerData extends Api
      * Update customer data.
      *
      * @param Model $model
-     * @return int
+     * @return int|null
      */
-    public function update(Model $model): int
+    public function update(Model $model): ?int
     {
         $route = '/customer/update';
 
@@ -26,6 +26,6 @@ class CustomerData extends Api
 
         $response = json_decode($response->body(), false);
 
-        return $response->id;
+        return $response?->id ?? null;
     }
 }
